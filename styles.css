@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.logo-font{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  margin: 0px;
+  color: #E3B23C;
+}
+
+.title-font{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  margin: 0px;
+  color: #EBC670;
+}
+
+.description-font{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0px;
+  color: #EBC670;
+}
+
+.quastion-font{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0px;
+  color: #EBC670;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #202020;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #151515;
+}
+
+.main-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  border: 1px solid #EBC670;
+  border-radius: 15px;
+  padding: 30px;
+}
+.survey-title{
+  margin-bottom: 50px;
+}
+
+.survey-description{
+  margin-top: 10px;
+}
+
+.quastion-block{
+  border-left: 12px solid #EBC670;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 50px;
+}
+
+.quastion{
+  margin-bottom: 10px;
+}
+
+.answer{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #f5f5f5;
+  background-color: #505050;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0px;
+}
+
+.send-button{
+  background-color: #EBC670;
+  border: 0px;
+  border-radius: 10px;
+  padding: 10px 20px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.result-right{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  border: 1px solid #05aa29;
+  border-radius: 15px;
+  padding: 20px 25px;
+}
+.right-font{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0px;
+  color: #05aa29;
+}
+
+.result-wrong{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  border: 1px solid #c41a03;
+  border-radius: 15px;
+  padding: 20px 25px;
+}
+.wrong-font{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0px;
+  color: #c41a03;
+}
