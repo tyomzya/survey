@@ -1,21 +1,15 @@
-const answer = document.querySelector('.answer')
-const sendButton = document.querySelector('.send-button')
-const result = document.querySelector('.result')
-
-const currentYear = '2024'
-
-
-sendButton.addEventListener('click', function () {
-  if(answer.value === ''){
-    return
-  }
-  if(answer.value === currentYear) {
-    result.innerHTML = `<div class="result-right">
-        <p class="right-font">Ответ верный! :)</p>
-      </div>`
-  } else {
-    result.innerHTML = `<div class="result-wrong">
-        <p class="wrong-font">Ответ неверный :(</p>
-      </div>`
-  }
-})
+var answerNode = document.getElementById('answer');
+var sendButtonNode = document.getElementById('sendButton');
+var resultNode = document.getElementById('result');
+sendButtonNode.addEventListener('click', function () {
+    var currentYear = "2024";
+    if (answerNode.value == '') {
+        return;
+    }
+    if (answerNode.value == currentYear) {
+        resultNode.innerHTML = "<div class=\"result-right\">\n        <p class=\"right-font\">\u041E\u0442\u0432\u0435\u0442 \u0432\u0435\u0440\u043D\u044B\u0439! :)</p>\n      </div>";
+    }
+    else {
+        resultNode.innerHTML = "<div class=\"result-wrong\">\n        <p class=\"wrong-font\">\u041E\u0442\u0432\u0435\u0442 \u043D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 :(</p>\n      </div>";
+    }
+});
